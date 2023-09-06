@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(0,0,0,0.8687850140056023) 47%, rgba(155,155,155,0.7567401960784313) 100%);
+}
+
+ul.principal-menu {
+    display: flex;
+    gap: 2.5em;
+    margin: 0 80px 25em 0;
+}
+
+.principal-menu {
+    list-style: none;
+}
+
+li {
+    margin-top: 35px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Arimo', sans-serif;
+    color: white;
+    font-weight: bold;
+}
