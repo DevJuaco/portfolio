@@ -8,6 +8,10 @@ header {
     background: linear-gradient(90deg, rgba(0,0,0,0.8687850140056023) 47%, rgba(155,155,155,0.7567401960784313) 100%);
 }
 
+.presentation {
+    color: white;
+}
+
 ul.principal-menu {
     display: flex;
     gap: 2.5em;
