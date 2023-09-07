@@ -3,6 +3,7 @@ body {
 }
 
 header {
+    height: 32rem;
     display: flex;
     justify-content: space-between;
     background: linear-gradient(90deg, rgba(0,0,0,0.8687850140056023) 47%, rgba(155,155,155,0.7567401960784313) 100%);
@@ -10,6 +11,23 @@ header {
 
 .presentation {
     color: white;
+    padding: 9em 0 0 7em
+}
+
+.saludo {
+    font-family: 'Arimo', sans-serif;
+}
+
+.presentation h1 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.description {
+    font-family: 'Arimo', sans-serif;
+}
+
+.nav-menu {
+    position: relative;
 }
 
 ul.principal-menu {
@@ -24,6 +42,12 @@ ul.principal-menu {
 
 li {
     margin-top: 35px;
+}
+
+img {
+    width: 600px;
+    position: relative;
+    top: -340px;
 }
 
 a {
