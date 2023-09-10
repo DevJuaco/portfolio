@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    height: 32rem;
+    height: 41rem;
     display: flex;
     justify-content: space-between;
     background: linear-gradient(90deg, rgba(0,0,0,0.8687850140056023) 47%, rgba(155,155,155,0.7567401960784313) 100%);
@@ -11,7 +11,7 @@ header {
 
 .presentation {
     color: white;
-    padding: 9em 0 0 7em
+    padding: 9em 0 0 8em
 }
 
 .saludo {
@@ -20,15 +20,16 @@ header {
 
 .presentation h1 {
     font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
 }
 
 .description {
     font-family: 'Arimo', sans-serif;
 }
 
-.nav-menu {
+/* .nav-menu {
     position: relative;
-}
+} */
 
 ul.principal-menu {
     display: flex;
@@ -44,15 +45,35 @@ li {
     margin-top: 35px;
 }
 
-img {
-    width: 600px;
-    position: relative;
-    top: -340px;
-}
+.faceFoto {
+    width: 453px;
+    margin: -493px 0px 0px 60px;
+}    
 
 a {
     text-decoration: none;
     font-family: 'Arimo', sans-serif;
     color: white;
     font-weight: bold;
+    font-size: 20px;
+}
+
+.red-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+    height: 20px;
+    font-size: 29px;
+}
+
+.networkImg {
+    width: 85px;
+}
+.social-network-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    gap: 23px
 }
