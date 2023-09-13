@@ -47,7 +47,8 @@ li {
 
 .faceFoto {
     width: 453px;
-    margin: -493px 0px 0px 60px;
+    margin-top: -359px;
+    margin-left: 87px;
 }    
 
 a {
@@ -76,4 +77,60 @@ a {
     justify-content: center;
     height: 6rem;
     gap: 23px
+}
+
+.studies {
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+    background-color: #d3d3d3;
+}
+
+.studies-image {
+    width: 29em;
+}
+
+.title-studies {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 54px;
+    margin: 22px;
+}
+
+.studies-text {
+    font-family: 'Arimo', sans-serif;
+}
+
+.title-content-studies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience {
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+    background-color: #dcdcdc;
+}
+
+.experience-image {
+    width: 29em;
+}
+
+.title-experience {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 54px;
+    margin: 22px;
+}
+
+.experience-text {
+    font-family: 'Arimo', sans-serif;
+}
+
+.title-content-experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
